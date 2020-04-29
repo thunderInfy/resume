@@ -1,12 +1,14 @@
-\documentclass[letter,10pt]{book}
+\documentclass[a4,10pt]{book}
 %-----------------------------------------------------------
-\usepackage[top=0.25in, bottom=0.25in, left=0.55in, right=0.55in]{geometry}
+\usepackage[top=0.1in, bottom=0in, left=0.25in, right=0.25in]{geometry}
 \usepackage{graphicx}
+\usepackage{xcolor}
 \usepackage{url}
 \usepackage{palatino}
 \usepackage{pdfrender}
 \usepackage{tabularx}
-\usepackage[colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black,filecolor=black,menucolor=black,runcolor=black,urlcolor=black]{hyperref}
+\definecolor{darkish-blue}{rgb}{0,0,0.4}
+\usepackage[colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black,filecolor=black,menucolor=black,runcolor=black,urlcolor=darkish-blue]{hyperref}
 \usepackage{wrapfig}
 \fontfamily{SansSerif}
 \selectfont
@@ -24,7 +26,7 @@
 
 \setlength{\tabcolsep}{0in}
 \newcommand{\isep}{-2 pt}
-\newcommand{\lsep}{-0.5cm}
+\newcommand{\lsep}{-0.57cm}
 \newcommand{\psep}{-0.6cm}
 \renewcommand{\labelitemii}{$\circ$}
 
@@ -57,7 +59,7 @@
 \begin{minipage}{0.33\textwidth}
 {\raggedright
 Email-id : \textbf{r.aditya0824@gmail.com} \\
-Mobile No.: \textbf{917477725222} \\
+Mobile No.: \textbf{917550916164} \\
 }
 \end{minipage}%
 \hspace{0.5cm}\\
@@ -71,7 +73,7 @@ Mobile No.: \textbf{917477725222} \\
 \textbf{Education} & \textbf{Institute} & \textbf{Year} & \textbf{CGPA / \%} \\
 \hline
 B. Tech and M. Tech (Dual Degree): &&&\\[-0.5em]
-{Computer Science and Engineering} & IIT Kharagpur  & 2016 - 2021 (Expected) & \textbf{9.42 / 10} \\
+{Computer Science and Engineering} & IIT Kharagpur  & 2016 - 2021 (Expected) & \textbf{9.43 / 10} \\
 \hline
 \end{tabular}
 \end{center}
@@ -79,7 +81,7 @@ B. Tech and M. Tech (Dual Degree): &&&\\[-0.5em]
 \hspace{0.5cm}\\
 \resheading{\textbf{INTERNSHIPS} }\\[\lsep]
 \\\\
-\large \textbf{Pattern Matching in Trillion Edge Graphs} \normalsize \\
+\large \href{http://netsyslab.ece.ubc.ca/wiki/index.php/People}{\textbf{Pattern Matching in Trillion Edge Graphs}} \normalsize \\
 \emph{Mitacs Globalink Research Intern, University of British Columbia \hfill May'19-Jul'19 } \\ 
 \emph{(Advisor: Prof. Matei Ripeanu)} \\[\lsep]
 \begin{itemize}
@@ -112,95 +114,42 @@ B. Tech and M. Tech (Dual Degree): &&&\\[-0.5em]
 \\
 \hspace{0cm}\\[-0.5cm]\\
 \resheading{\textbf{ PROJECTS } }\\[\lsep]
-\\\\ \large \href{http://cse.iitkgp.ac.in/~arastogi}{\textbf{Smart Rockets, Algorithmic Visualisations and Web-game Development}} \normalsize\\
-\emph{p5-js, HTML, CSS} \\[\lsep]
-\begin{itemize}
-\item Developed Smart Rockets, a demo of a \textbf{genetic algorithm}. Developed algorithmic visualisations on the web for algorithms like \textbf{Convex Hull}, Voronoi Diagram, Longest Increasing Subsequence etc.
-\\[\psep]
-\item  Used p5.js for creating \textbf{fractal} designs like trees, koch curves and flow field visualisation of \textbf{perlin noise}.\\[\psep]
-\item  Developed casual, fast-paced and puzzle 2D web-games.\\
-\end{itemize}
-\large \textbf{Visualising Deep Neural Network Architectures - B.Tech Project} \normalsize\\
-\emph{p5-js, TensorFlow.js \hfill Aug'19 - Present} \\ 
+\\\\ \large \textbf{Deep Learning Visualization} \normalsize\\
+\emph{TensorFlow.js, p5.js \hfill Aug'19 - Present} \\ 
 \emph{(Advisors: Prof. Partha Pratim Chakrabarti and Prof. Aritra Hazra)} \\[\lsep]
 \begin{itemize}
-	\item Developing a visualisation software for deep neural network architectures.\\[\psep]
-	\item Developing collaboratorial and adversarial agents to conduct unsupervised and statistical analysis on top of the neural network architecture. 
-	\\[\lsep]
+	\item Working on developing a meta algorithm which would visualize, understand and observe what neural networks learn in their underlying latent representations and takes decisions to alter the network to improve performance.\\[\psep]
+	\item Working on actionability in neural networks given \textbf{feature visualizations} and \textbf{saliency mappings}.\\[\psep]
+	\item Working on \textbf{adversarial robustness}, \textbf{calibration}, \textbf{out-of-distribution detection} and \textbf{energy based models}.
+	\\
+\end{itemize}
+\large \href{http://cse.iitkgp.ac.in/~arastogi}{\textbf{Smart Rockets, Algorithmic Visualisations and Web-game Development}} \normalsize\\
+\emph{p5-js, HTML, CSS} \\[\lsep]
+\begin{itemize}
+	\item Developed Smart Rockets, a demo of a \textbf{genetic algorithm}. Developed algorithmic visualisations on the web for algorithms like \textbf{Convex Hull}, Voronoi Diagram, Longest Increasing Subsequence etc.
+	\\[\psep]
+	\item  Used p5.js for creating \textbf{fractal} designs like trees, koch curves and flow field visualisation of \textbf{perlin noise}.\\[\psep]
+	\item  Developed casual, fast-paced and 2D puzzle web-games.\\[\lsep]
 \end{itemize}
 
 \hspace{0.5cm}\\[-0.2cm]
 \resheading{\textbf{BLOG POSTS} }\\[\lsep]
 \\[-0.5em]
-\begin{itemize}
+\begin{itemize}	
+	\item 
+	\href{https://medium.com/analytics-vidhya/understanding-simclr-a-simple-framework-for-contrastive-learning-of-visual-representations-d544a9003f3c?source=friends_link&sk=e768e4c2a88bd7d33f8eb42072b1fb05}{Understanding\textbf{ SimCLR} - A Simple Framework for \textbf{Contrastive Learning} of Visual Representations}
+	\\[\lsep]
+	\item 
+	\href{https://towardsdatascience.com/solving-racetrack-in-reinforcement-learning-using-monte-carlo-control-bdee2aa4f04e?source=friends_link&sk=926f05a3660c6bf4d8c6a81be77645c5}{Solving Racetrack in \textbf{Reinforcement Learning} using \textbf{Monte Carlo Control}}
+	\\[\lsep]
 	\item
-	\href{https://towardsdatascience.com/elucidating-policy-iteration-in-reinforcement-learning-jacks-car-rental-problem-d41b34c8aec7}{Elucidating \textbf{Policy Iteration} in \textbf{Reinforcement Learning} — Jack’s Car Rental Problem} : \textit{Towards Data Science}
-\end{itemize}
-
-\pagebreak
-
-\hspace{0.5cm}\\[-0.2cm]
-\resheading{\textbf{CERTIFICATIONS} }\\[\lsep]
-\\[-0.5em]
-\begin{itemize}
-	\item \href{https://www.coursera.org/account/accomplishments/certificate/7BQGV7ZGYBHV}{\textbf{Neural Networks and Deep Learning}} : \textit{Deeplearning.ai - Coursera}\\[\psep]
-	\item \href{https://www.coursera.org/account/accomplishments/certificate/Q9UDAMNJ4WJW}{\textbf{Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization}} : \textit{Deeplearning.ai - Coursera}\\[\psep]
-	\item \href{https://www.coursera.org/account/accomplishments/certificate/XHD5MM85DNN8}{\textbf{Structuring Machine Learning Projects}} : \textit{Deeplearning.ai - Coursera}\\[\psep]
-	\item \href{https://www.coursera.org/account/accomplishments/certificate/WJ6TRA83A89V}{\textbf{Mathematics for Machine Learning: PCA}} : \textit{Imperial College London - Coursera}
-\end{itemize}
-
-
-\hspace{0.5cm}\\[-0.2cm]
-\resheading{\textbf{TERM PROJECTS} }\\[\lsep]
-\\[-1em]
-\begin{itemize}
-	\item \href{https://github.com/thunderInfy/Spam-Classifier}{Built a deep neural network in python from scratch to classify messages as spam or ham.}\\[\psep]
-	\item \href{https://github.com/thunderInfy/Operating-Systems-Lab-IIT-KGP}{Implemented a memory-resident file system in Operating Systems Lab. Simulated Virtual Memory using Demand Paging, compared CPU scheduling algorithms and implemented a command-line interpreter running on Linux.} \\[\psep]
-	\item \href{https://github.com/thunderInfy/Networks-Lab-IIT-KGP}{Developed an API to do reliable communication over an unreliable link using timeouts and acknowledgements. Implemented a simplified FTP version in C.}\\[-2em]
-	\item Implemented a single-cycle processor (RISC architecture) in Verilog.\\[\psep]
-	\item \href{https://github.com/thunderInfy/compiler-for-tiny-C}{Designed a compiler for tiny-C.}\\[\psep]
-	\item \href{https://github.com/thunderInfy/Personal-Library-System-software}{Developed a Java-based software to manage a personal library system.}\\[\psep]
-	\item Implemented cryptographic algorithms like \href{https://github.com/thunderInfy/AES-one-round}{AES} and \href{https://github.com/thunderInfy/DES-on-image}{DES} in C from scratch and ran them on images and text.
-\end{itemize}
-\hspace{0.5cm}\\[-0.2cm]
-\resheading{\textbf{SKILLS AND EXPERTISE} }\\[\lsep]
-\\[-1em]
-\begin{itemize}
-\item \textbf{Languages :} Python, C, C++, Java, HTML, CSS\\[\psep]
-\item \textbf{Libraries and Tools :} TensorFlow.js, Keras, p5.js, Processing, Numpy, Scipy, Matplotlib
-\end{itemize}
-
-\hspace{0.5cm}\\[-0.2cm]
-\resheading{\textbf{COURSEWORK INFORMATION} }\\[\lsep]
-\\[-1em]
-\begin{itemize}
-\item \textbf{Completed : }*Programming and Data Structures | *Algorithms - I | Discrete Structures | *Signals and Networks | Machine Learning | Formal Language and Automata Theory | *Switching Circuits and Logic Design | *Software Engineering | Probability and Statistics | *Computer Organization and Architecture | *Compilers | Algorithms - II | Data Analytics | Cryptography and Network Security | *Operating Systems | *Computer Networks | Computational Complexity | Combinatorics and Computing | Quantum Computing - Project Seminar 
-\\[\psep]
-\item \textbf{Will be completed by May 2020 :}  Theory of Computation | Object-Oriented Systems | Artificial Intelligence | Reinforcement Learning | Image Processing | High Performance in Computer Architecture | Linear Algebra\\[\psep]
-\item \textbf{Micro Credit Course :} Computational Intelligence in Cyber Security\\
-{*} marked courses have a laboratory component as well.
-\end{itemize}
-
-\hspace{0.5cm}\\[-0.2cm]
-\resheading{\textbf{POSITIONS OF RESPONSIBILITY} }\\[\lsep]
-\\[-1em]
-\begin{itemize}
-\item \large \textbf{Student Mentor} \hfill \normalsize \textit{July'18-Present}  \\ 
-Mentored 1$^{st} $-year students under the Student Mentor Programme conducted by Student Welfare Group.
-\end{itemize}
-
-\hspace{0.5cm}\\[-0.2cm]
-\resheading{\textbf{AWARDS AND ACHIEVEMENTS} }\\[\lsep]
-\\[-1em]
-\begin{itemize}
-\item Cleared regionals and participated in the nationals of Indian National Astronomy Olympiad conducted by HBCSE.
-\\[\psep]
-\item Secured state rank 2 in International Olympiad of English Language’ 15
-conducted by SilverZone.
-\\[\psep]
-\item Recipient of the Goralal Syngal Memorial Scholarship.
-\\[\psep]
-\item Div. 1 rated Codechef user.
+	\href{https://towardsdatascience.com/elucidating-policy-iteration-in-reinforcement-learning-jacks-car-rental-problem-d41b34c8aec7?source=friends_link&sk=6d58e79a8c87eb8396724901306312ac}{Elucidating \textbf{Policy Iteration} in \textbf{Reinforcement Learning} — Jack’s Car Rental Problem}
+	\\[\lsep]
+	\item 
+	\href{https://medium.com/datadriveninvestor/visualizing-neural-networks-using-saliency-maps-in-pytorch-289d8e244ab4?source=friends_link&sk=37de912972716f67b3acab5c9bcdd9b0}{Visualizing Neural Networks using \textbf{Saliency Maps} in PyTorch}
+	\\[\lsep]
+	\item 
+	\href{https://medium.com/swlh/the-gnu-toolchain-explained-4bf14666bc03?source=friends_link&sk=4b9c4214e37b2b38d98e8f79edc824fe}{The \textbf{GNU Toolchain} Explained}
 \end{itemize}
 
 \end{document}
